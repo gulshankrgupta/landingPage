@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+.social{
+    background-image: linear-gradient(to right,orange,rgb(246, 242, 242),rgb(147, 239, 147));
+    height: 40px;
+}
+.social ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffffff;
+}
+.mob ul li a{
+    color: black;
+    font-weight: bold;
+}
+.fa-brands{
+    font-size: 25px;
+    color: white;
+}
+.fa-solid{
+    font-size: 20px;
+}
+.fa-regular{
+    font-size: 20px;
+}
+.navbar{
+    background-color: rgb(41, 43, 120);
+    font-size: 1.25rem;
+    height: 60px;
+    font-weight: bold;
+    color: wheat;
+}
+.left{
+    margin:0 30px;
+    padding: 10px;
+}
+.mahiz{
+    margin: 0 25px;
+    background-color: rgb(163, 211, 194);
+    color:rgb(139, 98, 47);
+    font-weight: bolder;
+    font-size: 1.9rem;
+    font-family: 'Alfa Slab One', cursive;
+font-family: 'IBM Plex Mono', monospace;
+
+}
+.right{
+    margin-left: 200px;
+}
+nav ul{
+    margin-left: 100px;
+    display: flex;
+    /* justify-content: center; */
+}
+nav ul li{
+    list-style: none;
+    margin: 0 25px;
+}
+.firstSection{
+    height: 65vh;
+    background-image: url('./image/bgimage.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;  
+}
+.content{
+    border: 0.1px solid gray;
+    margin-left: 250px;
+    border-left: 4px solid rgb(244, 189, 87);
+}
+.first{
+    color: rgba(241, 98, 27, 0.947);
+    margin: 17vh 0 20px 15px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: 'IBM Plex Mono', monospace;
+}
+.second{
+    color:rgb(241, 241, 93);
+    margin: 15px 0 15px 15px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Teko', sans-serif;
+}
+.third{ 
+    font-size: 1.25rem;
+    margin: 15px  0 15px 20px;
+    color:rgb(217, 236, 175);
+    font-weight: bold;
+}
+.fourth{ 
+    margin: 35px 0 20px 25px;
+}
+.btn{
+    margin:0 25px;
+    padding: 10px;
+    font-size: 1.25rem;
+    border: 2px solid black;
+    background-color: rgb(105, 105, 237);
+    color: wheat;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.secondSection{
+    display: flex;
+    height: 25vh;
+    background-image: linear-gradient(to right,orange,rgb(246, 242, 242),rgb(147, 239, 147));
+    justify-content:space-between;
+}
+.sfirst{
+    margin: 30px 10px 40px 10vw;
+    width: auto;   
+}
+h2{
+    display: inline;
+    margin-left: 20px;
+}
+.ssecond{
+    margin: 30px 20px;
+    width: auto;  
+}
+.sthird{
+    margin: 30px 10vw 40px 20px ;
+    width: auto;   
+}
+.icon{ 
+    font-size: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 8px;
+}
+.lor{
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+.thirdSection{
+    background-image: linear-gradient(to right,rgb(228, 177, 177),silver,rgb(67, 67, 193) );
+}
+.thcontent{   
+        display: flex;
+}
+.tsleft{
+    margin-top: 20px;
+    margin-left: 150px;
+    width: 40%;
+}
+.heading{
+    margin: 20px 0; 
+}
+.tsleft p{
+    font-size: 1.25rem;
+}
+.tsright{
+    margin-left: 30px;
+    width: 30%;
+}
+.tsright>div{
+    margin-top: 35px;
+}
+.tsright img{
+    height: 95%;
+    width: 95%;
+}
+.fourthSection{ 
+    background-image: linear-gradient(to right,rgb(114, 197, 96),rgb(150, 66, 66),rgb(248, 33, 101) );
+    margin-top: 0;
+}
+.fourthSection h1{
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+.services{
+    display: flex;
+    margin: 10px 12vw;
+    justify-content: space-around;
+}
+.serv{
+    height: auto;
+    width: 27%;
+    border: 3px solid rgb(15, 52, 78);
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.serv img{
+    height: 50%;
+    width: 100%;
+}
+.servcont{
+    text-align: center;
+    background-color:rgb(175, 198, 26,0.5);
+    font-size: 1.35rem;
+    font-weight: bold;
+    padding: 10px;
+}
